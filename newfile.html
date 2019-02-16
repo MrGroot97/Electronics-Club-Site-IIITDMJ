@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<style media="screen">
+  .container{
+    display:grid;
+    grid-gap:5px;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    grid-auto-rows:90px;
+  }
+  .container > div {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:2em;
+    color:#ffeead;
+  }
+  .container > div >img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+  }
+</style>
+<body>
+   <div class="container">
+        <div><img src="img/Gallery/00.jpg" alt=""></div>
+        <div><img src="img/Gallery/01.jpg" alt=""></div>
+        <div><img src="img/Gallery/02.jpg" alt=""></div>
+        <div><img src="img/Gallery/03.jpeg" alt=""></div>
+        <div><img src="img/Gallery/04.jpeg" alt=""></div>
+        <div><img src="img/Gallery/05.jpg" alt=""></div>
+        <div><img src="img/Gallery/06.jpg" alt=""></div>
+        <div><img src="img/Gallery/07.jpg" alt=""></div>
+   </div>
+
+
+</body>
+</html>

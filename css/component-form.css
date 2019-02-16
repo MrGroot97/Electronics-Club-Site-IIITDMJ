@@ -1,0 +1,65 @@
+.form-section ,.gallery-section{
+  background-image: url('../img/header-bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+  padding-top: 5%;
+}
+.social{
+  font-size: 30px;
+}
+.social-text{
+  font-size: 18px;
+}
+.filter-buttons{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 0.5em;
+  padding: 1em;
+}
+.gallery-section,.alumnus{
+  padding: 0;
+}
+.gallery-images{
+  padding: 1em;
+  display: grid;
+  grid-gap: 8px;
+  grid-template-columns: repeat(4,1fr);
+  grid-auto-rows: 250px;
+  grid-auto-flow: dense;
+}
+.gallery-images > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  color: #ffeead;
+}
+.gallery-images > div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* .horizontal{
+  grid-column: span 2;
+}
+.vertical{
+  grid-row: span 2;
+}
+.big {
+  grid-column: span 2;
+  grid-row:span 2;
+} */
+.button-register{
+  position: absolute;
+  top: 80px;
+  right: 50px;
+}
+.register-form{
+  display: none;
+}
